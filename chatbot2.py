@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 
 # API 키 로딩
 load_dotenv()
-client = OpenAI(api_key=st.secrets["OPEN_API_KEY"])
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 MODEL = "gpt-4o-mini"
 
 
